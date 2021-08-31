@@ -1,4 +1,4 @@
-INTEREST = 0.10
+iINTEREST = 0.10
 
 START_AGE = 19
 END_AGE = 27
@@ -20,4 +20,4 @@ def savings_counter():
 
 amount = savings_counter()
 print("Savings at retirement", round(amount, 2))
-print("Aonghus Naughton changed this")
+print("Aonghus Naughton changed this..")
