@@ -10,7 +10,7 @@ def savings_counter():
 
     for age in range(START_AGE, END_AGE):
         amount = amount * (1 + INTEREST)
-        amount += 6000
+        amount += 600
 
     for age in range(END_AGE, RETIREMENT_AGE):
         amount = amount * (1 + INTEREST)
