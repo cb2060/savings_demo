@@ -5,18 +5,18 @@ END_AGE = 27
 RETIREMENT_AGE = 67
 
 
-def savings_counter():
+def savings_counter(start, end, retirement):
     amount = 0
 
-    for age in range(START_AGE, END_AGE):
-        amount += 6000
+    for age in range(start, end):
         amount = amount * (1 + INTEREST)
+        amount += 6000
 
-    for age in range(END_AGE, RETIREMENT_AGE):
+    for age in range(end, retirement):
         amount = amount * (1 + INTEREST)
 
     return amount
 
 
-amount = savings_counter()
-print("Savings at retirement", round(amount, 2))
+savings = savings_counter(START_AGE, END_AGE, RETIREMENT_AGE)
+print("Savings at retirement", round(savings, 2))
