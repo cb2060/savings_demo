@@ -1,8 +1,11 @@
-INTEREST = 0.10
+#The interest rate has increased
+INTEREST = 0.08
 
 START_AGE = 19
 END_AGE = 27
-RETIREMENT_AGE = 67
+
+#The Swedish government has increased the retirement age
+RETIREMENT_AGE = 70
 
 
 def savings_counter():
