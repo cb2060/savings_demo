@@ -17,6 +17,5 @@ def savings_counter():
 
     return amount
 
-
 amount = savings_counter()
-print("Savings at retirement", round(amount, 2))
+print("Your savings when you retire will be", round(amount, 2))
