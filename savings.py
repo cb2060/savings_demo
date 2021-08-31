@@ -2,7 +2,7 @@ INTEREST = 0.10
 
 START_AGE = 19
 END_AGE = 27
-RETIREMENT_AGE = 67
+RETIREMENT_AGE = 65
 
 
 def savings_counter():
