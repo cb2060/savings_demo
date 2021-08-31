@@ -1,6 +1,6 @@
-INTEREST = 0.10
+INTEREST = 0.12
 
-START_AGE = 19
+START_AGE = 18
 END_AGE = 27
 RETIREMENT_AGE = 67
 
@@ -9,7 +9,7 @@ def savings_counter():
     amount = 0
 
     for age in range(START_AGE, END_AGE):
-        amount += 6000
+        amount += 2000
         amount = amount * (1 + INTEREST)
 
     for age in range(END_AGE, RETIREMENT_AGE):
@@ -19,4 +19,4 @@ def savings_counter():
 
 
 amount = savings_counter()
-print("Savings at retirement", round(amount, 2))
+print("Marta de Lucas savings at retirement age:", round(amount, 2))
