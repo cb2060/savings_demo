@@ -7,7 +7,7 @@ RETIREMENT_AGE = 67
 
 def savings_counter():
     amount = 0
-    print("I love money$$$$$$$$$$$$$$$$$$")
+    print("I love money $$$$$$$$$$$$$$$$$$")
 
     for age in range(START_AGE, END_AGE):
         amount += 6000
