@@ -1,8 +1,4 @@
-interest = 0.10
 
-start = 19
-end = 27
-retirement = 67
 
 
 def savings_counter(START_AGE,END_AGE,RETIREMENT_AGE,INTEREST):
@@ -18,5 +14,5 @@ def savings_counter(START_AGE,END_AGE,RETIREMENT_AGE,INTEREST):
     return amount
 
 
-amount = savings_counter(start,end,retirement,interest)
+amount = savings_counter(19,27,67,0.1)
 print("Savings at retirement", round(amount, 2))
