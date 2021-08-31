@@ -1,7 +1,8 @@
+#Changed by Giulia Testa for her personal savings
 INTEREST = 0.10
 
 START_AGE = 19
-END_AGE = 27
+END_AGE = 30
 RETIREMENT_AGE = 67
 
 
@@ -19,4 +20,4 @@ def savings_counter():
 
 
 amount = savings_counter()
-print("Savings at retirement", round(amount, 2))
+print("Giulia Testa Savings at retirement", round(amount, 2))
