@@ -21,3 +21,4 @@ def savings_counter():
 
 amount = savings_counter()
 print("Savings at retirement", round(amount, 2))
+print("Not enough money :(")
