@@ -19,4 +19,4 @@ def savings_counter():
 
 
 amount = savings_counter()
-print("Savings at retirement", round(amount, 2))
+print("Izabela's savings at retirement", round(amount, 2))
