@@ -1,3 +1,9 @@
+"""
+Module documentation here...
+"""
+
+__version__ = '0.0.1'
+
 INTEREST = 0.10
 
 START_AGE = 19
@@ -6,6 +12,9 @@ RETIREMENT_AGE = 67
 
 
 def savings_counter():
+    """
+    This is a function docstring
+    """
     amount = 0
 
     for age in range(START_AGE, END_AGE):
@@ -18,5 +27,6 @@ def savings_counter():
     return amount
 
 
-amount = savings_counter()
-print("Savings at retirement", round(amount, 2))
+if __name__ == "__main__":
+    amount = savings_counter()
+    print("Savings at retirement", round(amount, 2))
